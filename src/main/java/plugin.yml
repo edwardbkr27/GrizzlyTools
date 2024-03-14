@@ -1,0 +1,16 @@
+name: GrizzlyTools
+authors: [ Couph ]
+depend: [WorldGuard, WorldEdit, GrizzlyBackpacks]
+version: '1.1-SNAPSHOT'
+main: me.couph.grizzlytools.GrizzlyTools
+description: Custom Tools for play.grizzlyprison.com
+website: grizzlyprison.com
+commands:
+  gt:
+    usage: /<command>
+    description: Tools command.
+    aliases: [grizzlytools]
+  pickaxes:
+    usage: /command
+    description: Open the pickaxes GUI.
+    aliases: [pickaxe]

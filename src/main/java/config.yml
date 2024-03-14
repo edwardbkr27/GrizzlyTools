@@ -1,0 +1,28 @@
+# Variables
+#
+# %grizzlypickaxe% - The name of the pickaxe.
+# %grizzlypickaxeU% - The name of the pickaxe in UPPERCASE.
+# %grizzlypickaxeL% - The name of the pickaxe in lowercase.
+# %color% - The color of the pickaxe.
+# %colorB% - The color of the pickaxe in BOLD text.
+# %identifier% - The pickaxe Identifier (REQUIRED)
+
+# The identifier is required somewhere in the lore.
+pickaxe-identifier: '%color%&oThis is a %grizzlypickaxe% Pickaxe.'
+
+#Global lore for EVERY pickaxe set.
+lore:
+  - '%identifier%'
+  - ''
+  - '%LIST_BONUS%' # This will list all of the bonuses for the pickaxe.
+  - '&7&o(Requires you to be holding the item).'
+
+enchantments:
+  default:
+    - EFFICIENCY:10
+    - FORTUNE:10
+    - UNBREAKING:10
+
+messages:
+  pickaxe-equipped: '&e&l(!)&e You have &a&lACTIVATED&e the %colorB%%grizzlypickaxeU% &epickaxe.'
+  pickaxe-unequipped: '&e&l(!)&e You have &c&lDEACTIVATED&e the %colorB%%pickaxeU% &epickaxe.'
